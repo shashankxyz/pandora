@@ -4,8 +4,8 @@ from concurrent.futures import ThreadPoolExecutor
 from aiohttp import ClientTimeout
 import os
 
-creator = "CREATOR_NAME"
-service = "SERVICE_NAME"
+creator = "CREATOR_NAME" (Taylor lavie)
+service = "SERVICE_NAME" (onlyfans,fansly)
 basepath = "DIRECTORY_WHERE_YOU_WANT TO SAVE" + '\\'
 path_to_save = basepath + "\\" f"{creator}" + '.txt'
 async def get_lbe(url):
